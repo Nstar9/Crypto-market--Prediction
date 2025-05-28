@@ -172,3 +172,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore large or unnecessary files
+*.parquet
+*.csv
+*.npz
+*.pkl
+__pycache__/
+outputs/
+.DS_Store
+
